@@ -4,57 +4,23 @@
 
 
 <main>
-    <section id="sessao-1" class="sessao-1">
-        <div class="grid grid-cols-2 md:grid-cols-3 gap-4">
+    <section id="sessao-1" class="sessao-1 bg-yellow-500">
+        
+
+<div class="grid grid-cols-2 gap-2">
+        <div class="flex items-center justify-center text-justify">
             <div>
-                <img class="h-auto max-w-full rounded-lg"
-                    src="{{ asset('img/1.jpg') }}" alt="">
-            </div>
-            <div>
-                <img class="h-auto max-w-full rounded-lg"
-                    src="{{ asset('img/2.jpg') }}" alt="">
-            </div>
-            <div>
-                <img class="h-auto max-w-full rounded-lg"
-                    src="{{ asset('img/3.jpg') }}" alt="">
-            </div>
-            <div>
-                <img class="h-auto max-w-full rounded-lg"
-                    src="{{ asset('img/4.jpg') }}" alt="">
-            </div>
-            <div>
-                <img class="h-auto max-w-full rounded-lg"
-                    src="{{ asset('img/5.jpg') }}" alt="">
-            </div>
-            <div>
-                <img class="h-auto max-w-full rounded-lg"
-                    src="{{ asset('img/6.jpg') }}" alt="">
-            </div>
-            <div>
-                <img class="h-auto max-w-full rounded-lg"
-                    src="{{ asset('img/7.jpg') }}" alt="">
-            </div>
-            <div>
-                <img class="h-auto max-w-full rounded-lg"
-                    src="{{ asset('img/8.jpg') }}" alt="">
-            </div>
-            <div>
-                <img class="h-auto max-w-full rounded-lg"
-                    src="{{ asset('img/9.jpg') }}" alt="">
-            </div>
-            <div>
-                <img class="h-auto max-w-full rounded-lg"
-                    src="{{ asset('img/10.jpg') }}" alt="">
-            </div>
-            <div>
-                <img class="h-auto max-w-full rounded-lg"
-                    src="{{ asset('img/11.jpg') }}" alt="">
-            </div>
-            <div>
-                <img class="h-auto max-w-full rounded-lg"
-                    src="{{ asset('img/12.jpg') }}" alt="">
-            </div>
+            <p class="text-black font-bold text-5xl">Olá! Meu nome é</p>
+            <p class="text-white font-bold text-5xl">Matheus Gonçalves</p>
+            <p class="text-black font-bold text-sm mt-2">Tenho 17 anos e sou estudante de Análise e Desenvolvimento de Sitemas na Etec Zona Leste</p>
         </div>
+        </div>
+        <div>
+            <img class="h-full max-w-full rounded-lg" src="{{ asset('img/matheus.jpg') }}" alt="">
+        </div>
+    </div>
+
+        
 
     </section>
 </main>
